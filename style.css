@@ -3,7 +3,6 @@ body {
   font-family: 'Segoe UI', sans-serif;
 }
 
-
 .navbar {
   border-bottom: 3px dashed #d63384; 
 }
@@ -47,7 +46,6 @@ h1, h2 {
   font-weight: bold;
 }
 
-/* Contenedor */
 .container {
   background: #ffffff;
   border-radius: 15px;
@@ -86,7 +84,6 @@ h1, h2 {
   background-color: #c2185b;
   transform: scale(1.1);
 }
-
 
 footer {
   border-top: 3px dashed #d63384; 
