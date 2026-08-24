@@ -3,7 +3,7 @@ body {
   font-family: 'Segoe UI', sans-serif;
 }
 
-/* Navbar */
+
 .navbar {
   border-bottom: 3px dashed #d63384; 
 }
@@ -35,7 +35,7 @@ body {
   border-bottom: 2px dashed #d63384; 
 }
 
-/* Hero */
+
 #hero {
   background: linear-gradient(to bottom, #fffafc, #ffe6f0);
   border-radius: 15px;
@@ -55,7 +55,7 @@ h1, h2 {
   padding: 20px;
 }
 
-/* Cards */
+
 .card {
   border: 2px dashed #f48fb1; 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -71,10 +71,10 @@ h1, h2 {
   font-weight: bold;
 }
 
-/* Botón */
+
 .btn-primary {
   background-color: #d63384;
-  border: 2px dashed #fff;   /* borde tipo costura */
+  border: 2px dashed #fff;   
   border-radius: 30px; 
   padding: 12px 30px;
   font-size: 1.2rem;
@@ -87,7 +87,7 @@ h1, h2 {
   transform: scale(1.1);
 }
 
-/* Footer */
+
 footer {
   border-top: 3px dashed #d63384; 
 }
