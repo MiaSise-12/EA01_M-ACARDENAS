@@ -1,0 +1,107 @@
+body {
+  background: #fffafc; 
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  border-bottom: 3px dashed #d63384; 
+}
+
+.navbar-brand img {
+  height: 120px;              
+  border-radius: 20px;        
+  padding: 8px;
+  background-color: #fff0f6;   
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar-brand img:hover {
+  transform: scale(1.15);      
+  box-shadow: 0 8px 20px rgba(214,51,132,0.6); 
+}
+
+.nav-link {
+  font-weight: bold;         
+  color: #d63384 !important;  
+  text-transform: uppercase; 
+  letter-spacing: 1px;        
+  transition: 0.3s;          
+}
+
+.nav-link:hover {
+  color: #c2185b !important;  
+  border-bottom: 2px dashed #d63384; 
+}
+
+/* Hero */
+#hero {
+  background: linear-gradient(to bottom, #fffafc, #ffe6f0);
+  border-radius: 15px;
+  padding: 40px 20px;
+}
+
+h1, h2 {
+  color: #d63384; 
+  font-weight: bold;
+}
+
+/* Contenedor */
+.container {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+/* Cards */
+.card {
+  border: 2px dashed #f48fb1; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.card-title {
+  color: #c2185b;
+  font-weight: bold;
+}
+
+/* Botón */
+.btn-primary {
+  background-color: #d63384;
+  border: 2px dashed #fff;   /* borde tipo costura */
+  border-radius: 30px; 
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #c2185b;
+  transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+  border-top: 3px dashed #d63384; 
+}
+
+.btn-primary {
+  background-color: #d63384;
+  border: 2px dashed #fff;
+  border-radius: 30px;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.btn-primary:hover {
+  background-color: #c2185b;
+  transform: scale(1.1);
+}
